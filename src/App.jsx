@@ -1,9 +1,11 @@
 import { FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Details from "./Details";
+import pt2 from './images/HP1.png'
+import illusion from './images/HP2.png'
 
 function App() {
   return (
-    <div className="bg-gray-100 min-h-[100vh]">
+    <div className="min-h-[100vh]">
       <div className="h-[120px] flex mx-[3%]">
         <div className="w-1/3 h-full flex items-center gap-6 text-md">
           <a href="">ABOUT ME</a>
@@ -36,10 +38,10 @@ function App() {
         <h2 className="font-medium text-lg">Keep scrolling to explore my portfolio!</h2>
       </div>
       <div className="grid sm:grid-cols-2 gap-4 sm:mx-8 md:mx-14 transition duration-200">
-      <Details text={'ILLUSION'} color={'bg-pink-300'} link={''} />
-      <Details text={'PREVENT TYPE 2'} color={'bg-blue-400'} link={''} />
-      <Details text={'A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS'} color={'bg-gray-300'} link={''} />
-      <Details text={'SHY FX ESSENTIAL ALBUM'} color={'bg-black'} link={''} />
+      <Details text={'ILLUSION'} color={'bg-[#e2b8d7]'} link={''} image={illusion} />
+      <Details text={'PREVENT TYPE 2'} color={'bg-[#71bbfb]'} link={''} image={pt2} />
+      {/* <Details text={'A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS'} color={'bg-gray-300'} link={''} />
+      <Details text={'SHY FX ESSENTIAL ALBUM'} color={'bg-black'} link={''} /> */}
     
       </div>
     </div>
