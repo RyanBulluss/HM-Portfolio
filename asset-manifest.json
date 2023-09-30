@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/HM-Portfolio/static/css/main.8f082bec.css",
-    "main.js": "/HM-Portfolio/static/js/main.8b35d837.js",
-    "static/media/HP2.png": "/HM-Portfolio/static/media/HP2.f12e4688b4c6be2d8a44.png",
-    "static/media/HP1.png": "/HM-Portfolio/static/media/HP1.6082df7afcbc926a1b58.png",
+    "main.css": "/HM-Portfolio/static/css/main.1d5f9399.css",
+    "main.js": "/HM-Portfolio/static/js/main.e8a5e854.js",
+    "static/media/binary.png": "/HM-Portfolio/static/media/binary.98296889ffc7a305a5d3.png",
+    "static/media/shy.png": "/HM-Portfolio/static/media/shy.8a6111c2e2d8e989d014.png",
+    "static/media/omega.png": "/HM-Portfolio/static/media/omega.ba167f61ac58d3d5551e.png",
+    "static/media/dog-shelter.png": "/HM-Portfolio/static/media/dog-shelter.645ba762ed99ccd82fa3.png",
+    "static/media/illusion.png": "/HM-Portfolio/static/media/illusion.f12e4688b4c6be2d8a44.png",
+    "static/media/argyll.png": "/HM-Portfolio/static/media/argyll.e239a71cbc1c43d9965d.png",
+    "static/media/reda.png": "/HM-Portfolio/static/media/reda.f43772d1c58a9ef78e65.png",
+    "static/media/prevent-type.png": "/HM-Portfolio/static/media/prevent-type.6082df7afcbc926a1b58.png",
     "index.html": "/HM-Portfolio/index.html",
-    "main.8f082bec.css.map": "/HM-Portfolio/static/css/main.8f082bec.css.map",
-    "main.8b35d837.js.map": "/HM-Portfolio/static/js/main.8b35d837.js.map"
+    "main.1d5f9399.css.map": "/HM-Portfolio/static/css/main.1d5f9399.css.map",
+    "main.e8a5e854.js.map": "/HM-Portfolio/static/js/main.e8a5e854.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f082bec.css",
-    "static/js/main.8b35d837.js"
+    "static/css/main.1d5f9399.css",
+    "static/js/main.e8a5e854.js"
   ]
 }
