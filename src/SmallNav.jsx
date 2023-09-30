@@ -15,23 +15,23 @@ export default function SmallNav({ showNav, setShowNav }) {
         </button>
       </div>
 
-      <div className="h-full flex flex-col items-center justify-center gap-8 flex-grow lg:gap-6 text-2xl">
+      <div className="h-full flex flex-col items-center justify-center gap-4 flex-grow lg:gap-6 text-2xl">
         <Link
-          to="/about"
-          className={`${location.pathname === "/about" ? "font-semibold" : ""}`}
+          to="/HM-Portfolio/about"
+          className={`p-3 ${location.pathname === "/HM-Portfolio/about" ? "font-semibold" : ""}`}
         >
           ABOUT ME
         </Link>
         <Link
-          to="/"
-          className={`${location.pathname === "/" ? "font-semibold" : ""}`}
+          to="/HM-Portfolio/"
+          className={`p-3 ${location.pathname === "/HM-Portfolio/" ? "font-semibold" : ""}`}
         >
           WORK
         </Link>
         <Link
-          to="/contact"
-          className={`${
-            location.pathname === "/contact" ? "font-semibold" : ""
+          to="/HM-Portfolio/contact"
+          className={`p-3 ${
+            location.pathname === "/HM-Portfolio/contact" ? "font-semibold" : ""
           }`}
         >
           CONTACT

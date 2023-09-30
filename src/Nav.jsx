@@ -12,28 +12,28 @@ export default function Nav() {
         {showNav && <SmallNav showNav={showNav} setShowNav={setShowNav} /> }
       <div className="w-1/3 h-full hidden md:flex items-center gap-4 lg:gap-6 text-md">
         <Link
-          to="/about"
-          className={`${location.pathname === "/about" ? "font-semibold" : ""}`}
+          to="/HM-Portfolio/about"
+          className={`${location.pathname === "/HM-Portfolio/about" ? "font-semibold" : ""}`}
         >
           ABOUT ME
         </Link>
         <Link
-          to="/"
-          className={`${location.pathname === "/" ? "font-semibold" : ""}`}
+          to="/HM-Portfolio/"
+          className={`${location.pathname === "/HM-Portfolio/" ? "font-semibold" : ""}`}
         >
           WORK
         </Link>
         <Link
-          to="/contact"
+          to="/HM-Portfolio/contact"
           className={`${
-            location.pathname === "/contact" ? "font-semibold" : ""
+            location.pathname === "/HM-Portfolio/contact" ? "font-semibold" : ""
           }`}
         >
           CONTACT
         </Link>
       </div>
       <div className="md:w-1/3 h-full flex items-center justify-center">
-        <Link to="/">
+        <Link to="/HM-Portfolio/">
           <img
             className="h-[60px] md:h-[120px] md:ml-3"
             src="https://cdn.myportfolio.com/8602d74a-2f44-4984-98f4-1d6af02cd812/4b91dff5-29fb-4355-840e-cac932466a0b_rwc_582x554x1222x1222x4096.png?h=0e948e7ce62efc06da04e5ad56401be1"
