@@ -4,6 +4,15 @@ import Work from "./Work";
 import Nav from "./Nav";
 import About from "./About";
 import Contact from "./Contact";
+import Argyll from "./projects/Argyll";
+import Binary from "./projects/Binary";
+import Illusion from "./projects/Illusion";
+import Omega from "./projects/Omega";
+import Prevent from "./projects/Prevent";
+import Reda from "./projects/Reda";
+import Shelters from "./projects/Shelters";
+import Shy from "./projects/Shy";
+
 
 export default function App() {
   function scrollToTop() {
@@ -20,6 +29,14 @@ export default function App() {
         <Route path="/HM-Portfolio/" element={<Work />} />
         <Route path="/HM-Portfolio/about" element={<About />} />
         <Route path="/HM-Portfolio/contact" element={<Contact />} />
+        <Route path="/HM-Portfolio/illusion" element={<Illusion />} />
+        <Route path="/HM-Portfolio/prevent-type-2" element={<Prevent />} />
+        <Route path="/HM-Portfolio/dogs-in-shelters" element={<Shelters />} />
+        <Route path="/HM-Portfolio/shy-fx" element={<Shy />} />
+        <Route path="/HM-Portfolio/reda" element={<Reda />} />
+        <Route path="/HM-Portfolio/argyll-covenant" element={<Argyll />} />
+        <Route path="/HM-Portfolio/omega-diagnostics" element={<Omega />} />
+        <Route path="/HM-Portfolio/binary-botanical" element={<Binary />} />
       </Routes>
       <button
       onClick={scrollToTop}

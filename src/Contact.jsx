@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className="max-w-[600px] flex flex-col items-center gap-4 md:gap-8 px-4 mx-auto my-[40px]">
-      <h1 className="text-center text-2xl md:mt-4 font-semibold">Contact</h1>
+      <h1 className="text-center text-xl sm:text-2xl md:text-3xl md:mt-4 font-semibold">Contact</h1>
       <p className="text-center text-gray-600">Please fill out the quick form and I will be in touch as soon as I can!</p>
       <form className="flex flex-col gap-4 my-8 w-full" action="">
         <div>

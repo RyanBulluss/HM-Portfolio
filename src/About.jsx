@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div className="max-w-[800px] flex flex-col items-center gap-8  md:gap-16 px-4 mx-auto my-[40px]">
-      <h1 className="text-center text-2xl md:mt-4 font-semibold">ABOUT ME</h1>
+      <h1 className="text-center text-xl sm:text-2xl md:text-3xl md:mt-4 font-semibold">ABOUT ME</h1>
 
       <h2 className="w-full font-semibold text-xl md:text-4xl mt-16">HANORAH MURPHY</h2>
 

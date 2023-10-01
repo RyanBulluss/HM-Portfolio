@@ -6,11 +6,11 @@ export default function SmallNav({ showNav, setShowNav }) {
   const location = useLocation();
   return (
     <div
-      className="bg-white fixed w-[100%] h-[100%] flex flex-col top-0 left-0 z-40"
+      className="bg-white fixed w-[100%] h-[100%] flex flex-col top-0 left-0 z-50"
       onClick={() => setShowNav(!showNav)}
     >
       <div className="h-[120px] flex text-2xl justify-end items-center mx-8 md:mx-[3%]">
-        <button className="mb-4">
+        <button className="mt-1">
           <FaTimes />
         </button>
       </div>
