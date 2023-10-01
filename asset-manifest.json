@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HM-Portfolio/static/css/main.9aff57a0.css",
-    "main.js": "/HM-Portfolio/static/js/main.46cc36e3.js",
+    "main.css": "/HM-Portfolio/static/css/main.52b64287.css",
+    "main.js": "/HM-Portfolio/static/js/main.c3ab80a2.js",
     "static/media/binary-1.png": "/HM-Portfolio/static/media/binary-1.26eff43e704b229bc0f6.png",
     "static/media/binary.png": "/HM-Portfolio/static/media/binary.98296889ffc7a305a5d3.png",
     "static/media/shy.png": "/HM-Portfolio/static/media/shy.8a6111c2e2d8e989d014.png",
@@ -12,17 +12,22 @@
     "static/media/binary-5.png": "/HM-Portfolio/static/media/binary-5.a73ee8bf5ca91b44d87c.png",
     "static/media/binary-7.png": "/HM-Portfolio/static/media/binary-7.6cfc1520a2e7fab38ceb.png",
     "static/media/binary-4.png": "/HM-Portfolio/static/media/binary-4.741691659b5bfb07dccd.png",
+    "static/media/omega-1.png": "/HM-Portfolio/static/media/omega-1.2d335042f208e343ed43.png",
     "static/media/reda.png": "/HM-Portfolio/static/media/reda.f43772d1c58a9ef78e65.png",
+    "static/media/omega-2.png": "/HM-Portfolio/static/media/omega-2.2f6860441f7ef5e2b2c9.png",
+    "static/media/omega-4.png": "/HM-Portfolio/static/media/omega-4.5e395139c4d765e6d929.png",
+    "static/media/omega-3.png": "/HM-Portfolio/static/media/omega-3.84b3ec0104371a232742.png",
     "static/media/prevent-type.png": "/HM-Portfolio/static/media/prevent-type.6082df7afcbc926a1b58.png",
     "static/media/binary-6.png": "/HM-Portfolio/static/media/binary-6.35bbb9e89738dcd97f0c.png",
     "static/media/binary-2.png": "/HM-Portfolio/static/media/binary-2.c2d7d29bedecea26942c.png",
     "static/media/binary-3.png": "/HM-Portfolio/static/media/binary-3.b2de65656c382d58bbd2.png",
+    "static/media/logo.png": "/HM-Portfolio/static/media/logo.238cd93b3a30e066813f.png",
     "index.html": "/HM-Portfolio/index.html",
-    "main.9aff57a0.css.map": "/HM-Portfolio/static/css/main.9aff57a0.css.map",
-    "main.46cc36e3.js.map": "/HM-Portfolio/static/js/main.46cc36e3.js.map"
+    "main.52b64287.css.map": "/HM-Portfolio/static/css/main.52b64287.css.map",
+    "main.c3ab80a2.js.map": "/HM-Portfolio/static/js/main.c3ab80a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aff57a0.css",
-    "static/js/main.46cc36e3.js"
+    "static/css/main.52b64287.css",
+    "static/js/main.c3ab80a2.js"
   ]
 }
