@@ -30,10 +30,10 @@ export default function SmallDetails() {
 
   return (
     <div className="">
-      <h3 className="font-bold text-left mb-2">YOU MAY ALSO LIKE</h3>
-      <div className="flex h-64 overflow-x-auto">
+      <h3 className="font-bold text-left text-sm sm:text-lg  ml-4 mb-4">YOU MAY ALSO LIKE</h3>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
         {projects.map((project, idx) => (
-          <Link to={project.link} className={`group w-full relative`} key={idx}>
+          <Link to={project.link} className={`group w-full relative ${idx < 2 ? 'block' : 'hidden'}  ${idx < 4 ? 'md:block' : ''}`} key={idx}>
             <img
               src={project.image}
               className="z-0 h-full w-full"

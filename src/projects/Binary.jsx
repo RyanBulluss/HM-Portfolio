@@ -16,7 +16,7 @@ export default function Binary() {
     const images = [image1, image2, image3, image4, image5, image6, image7]
 
   return (
-    <div className="max-w-[1400px] mx-auto text-center">
+    <div className="max-w-[1400px] mx-auto xs:p-4 text-center">
         {image &&  <ViewImage image={image} setImage={setImage} />}
      
       <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-4">
@@ -70,7 +70,7 @@ export default function Binary() {
         <img src={image6} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(image6)} />
         <img src={image7} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(image7)} />
       </div>
-      <div className="my-8">
+      <div className="my-16">
         <SmallDetails />
       </div>
     </div>
