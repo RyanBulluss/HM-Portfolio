@@ -31,7 +31,7 @@ export default function Argyll() {
   return (
     <div className="max-w-[1400px] mx-auto xs:p-4 text-center">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
         <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
           ARGYLL COVENANT
         </h1>
@@ -49,7 +49,7 @@ export default function Argyll() {
           below.
         </p>
       </div>
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
         <p className="text-sm md:text-lg">
           For feedback from the client, I designed a clickable prototype to test
           and determine its fit and durability but to also identify
@@ -69,7 +69,7 @@ export default function Argyll() {
         </a>
       </div>
       <img src={image1} alt="" onClick={() => setImage(1)} className="hover:cursor-zoom-in" />
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
         <p className="text-sm md:text-lg">
           During the internship I also contributed to the redesigning of the
           logo for the client. The logo that can be seen being used for the web
@@ -86,7 +86,7 @@ export default function Argyll() {
         </p>
       </div>
       <img src={image2} alt="" onClick={() => setImage(2)} className="hover:cursor-zoom-in" />
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
         <p className="text-sm md:text-lg">
           The client wanted to redesign their current website, to create a more
           modern business message to their site, that would welcome in new
@@ -115,7 +115,7 @@ export default function Argyll() {
         <img src={image9} className="w-[40%] hover:cursor-zoom-in" alt="" onClick={() => setImage(9)} />
         <img src={image10} className="w-[59%] hover:cursor-zoom-in" alt="" onClick={() => setImage(10)} />
       </div>
-      <div className="my-12">
+      <div className="my-24">
         <a href="https://www.argyllcovenant.com" target="_blank" rel="noreferrer"
         className="bg-orange-400 text-white font-bold py-2 px-6 rounded-full hover:cursor-pointer hover:bg-orange-600">
           Live Website

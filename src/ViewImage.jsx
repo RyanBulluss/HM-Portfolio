@@ -18,6 +18,22 @@ export default function ViewImage( {image, setImage, images} ) {
     }
   }
 
+  // const handleKeyDown = (event) => {
+  //   switch (event.key) {
+  //     case 'ArrowLeft':
+  //       lastImage();
+  //       break;
+  //     case 'ArrowRight':
+  //       nextImage();
+  //       break;
+  //     default:
+  //       break;
+  //   }
+  // };
+
+  
+  // window.addEventListener('keydown', handleKeyDown);
+
 
   return (
     <div className="bg-white/90 fixed w-[100%] h-[100%] flex flex-col justify-center items-center top-0 left-0 z-50">
@@ -38,7 +54,7 @@ export default function ViewImage( {image, setImage, images} ) {
             <FaChevronRight />
           </div>
         </div>
-        <img src={images[image - 1]} alt="image" className="unselectable" />
+        <img src={images[image - 1]} alt="image" className="unselectable max-h-[95%] max-w-[95%]" />
     </div>
   );
 }

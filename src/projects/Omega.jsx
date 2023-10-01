@@ -13,7 +13,7 @@ export default function Omega() {
   return (
     <div className="max-w-[1400px] mx-auto text-center sm:p-4">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 mb-8 flex flex-col gap-6">
         <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
           OMEGA DIAGNOSTICS
         </h1>
@@ -32,8 +32,8 @@ export default function Omega() {
         onClick={() => setImage(1)}
         className="hover:cursor-zoom-in"
       />
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
-        <p className="text-sm md:text-lg text-gray-600">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
+        <p className="text-sm md:text-lg">
           I produced the image above for the client to gage the size of the
           board once printed. The board stands at 3 meters high, with the
           illustration of the people standing at 1.7 meters high. This not only
@@ -48,8 +48,8 @@ export default function Omega() {
         onClick={() => setImage(2)}
         className="hover:cursor-zoom-in"
       />
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-6">
-        <p className="text-sm md:text-lg text-gray-600">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
+        <p className="text-sm md:text-lg">
           Below are the two options I provided for the client. All information
           and imagery was provided by the client, my job was to size it
           correctly and position everything in the best way possible.

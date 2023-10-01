@@ -19,7 +19,7 @@ export default function Binary() {
     <div className="max-w-[1400px] mx-auto xs:p-4 text-center">
         {image &&  <ViewImage image={image} setImage={setImage} images={images} />}
      
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-4">
+      <div className="max-w-[750px] mb-6 mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-4">
         <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
           BINARY BOTANICAL COMPETITION WINNER
         </h1>
@@ -42,7 +42,7 @@ export default function Binary() {
         </p>
       </div>
       <img src={image1} alt="Certificate" onClick={() => setImage(1)} className="hover:cursor-zoom-in" />
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8">
         <p className="text-sm md:text-lg text-gray-800">
           The brief stated it wanted a two colour design based upon the brand
           guidlines, made up of two silhouette layers. Which can be easily
@@ -57,7 +57,7 @@ export default function Binary() {
         <img src={image2} alt="Logo" onClick={() => setImage(2)} className="hover:cursor-zoom-in" />
         <img src={image3} alt="Logo" onClick={() => setImage(3)} className="hover:cursor-zoom-in" />
       </div>
-      <div className="max-w-[750px] mx-auto p-6 sm:p-8">
+      <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8">
         <p className="text-sm md:text-lg text-gray-800">
           Below shows some photographs of the design outside of one of the
           Sainsbury's. As this was the first design put down, I went along to
