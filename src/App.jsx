@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route  } from "react-router-dom";
 import { FaChevronUp } from "react-icons/fa";
 import Work from "./Work";
 import Nav from "./Nav";
@@ -15,6 +15,7 @@ import Shy from "./projects/Shy";
 
 
 export default function App() {
+
   function scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -38,11 +39,11 @@ export default function App() {
         <Route path="/HM-Portfolio/omega-diagnostics" element={<Omega />} />
         <Route path="/HM-Portfolio/binary-botanical" element={<Binary />} />
       </Routes>
-      <button
+      <div
       onClick={scrollToTop}
-      className="fixed bg-gray-300/60 text-xl z-40 bottom-5 right-5 p-4 text-gray-600 hover:text-gray-100 hover:bg-black duration-300 rounded-full">
+      className="fixed bg-gray-300/60 text-xl z-40 bottom-5 right-5 p-4 hover:cursor-pointer text-gray-600 hover:text-gray-100 hover:bg-black duration-300 rounded-full">
         <FaChevronUp />
-      </button>
+      </div>
     </div>
   );
 }

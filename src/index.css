@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+.unselectable {
+  user-select: none;
+}
+
 /* ::-webkit-scrollbar {
   width: 12px;
 }

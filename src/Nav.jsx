@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaLinkedin, FaInstagram, FaEnvelope, FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import SmallNav from "./SmallNav";
+import logo from './images/logo.png'
 
 export default function Nav() {
   const location = useLocation();
@@ -32,11 +33,11 @@ export default function Nav() {
           CONTACT
         </Link>
       </div>
-      <div className="md:w-1/3 h-full flex items-center justify-center">
+      <div className="md:w-1/3 h-full flex unselectable items-center justify-center">
         <Link to="/HM-Portfolio/">
           <img
             className="h-[60px] md:h-[120px] md:ml-3"
-            src="https://cdn.myportfolio.com/8602d74a-2f44-4984-98f4-1d6af02cd812/4b91dff5-29fb-4355-840e-cac932466a0b_rwc_582x554x1222x1222x4096.png?h=0e948e7ce62efc06da04e5ad56401be1"
+            src={logo}
             alt="logo"
           />
         </Link>
@@ -52,10 +53,10 @@ export default function Nav() {
           <FaEnvelope />
         </a>
       </div>
-      { !showNav && <button className="block md:hidden text-2xl mb-4"
+      { !showNav && <div className="block md:hidden text-2xl mb-4 hover:cursor-pointer"
       onClick={() => setShowNav(!showNav)}>
         <FaBars />
-      </button>
+      </div>
       }
       
     </div>

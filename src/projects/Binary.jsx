@@ -17,7 +17,7 @@ export default function Binary() {
 
   return (
     <div className="max-w-[1400px] mx-auto xs:p-4 text-center">
-        {image &&  <ViewImage image={image} setImage={setImage} />}
+        {image &&  <ViewImage image={image} setImage={setImage} images={images} />}
      
       <div className="max-w-[750px] mx-auto p-6 sm:p-8 flex flex-col gap-4">
         <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
@@ -41,7 +41,7 @@ export default function Binary() {
           educational environment.
         </p>
       </div>
-      <img src={image1} alt="Certificate" onClick={() => setImage(image1)} className="hover:cursor-zoom-in" />
+      <img src={image1} alt="Certificate" onClick={() => setImage(1)} className="hover:cursor-zoom-in" />
       <div className="max-w-[750px] mx-auto p-6 sm:p-8">
         <p className="text-sm md:text-lg text-gray-800">
           The brief stated it wanted a two colour design based upon the brand
@@ -54,8 +54,8 @@ export default function Binary() {
         </p>
       </div>
       <div className="flex flex-col gap-4 max-w-[1080px] mx-auto">
-        <img src={image2} alt="Logo" onClick={() => setImage(image2)} className="hover:cursor-zoom-in" />
-        <img src={image3} alt="Logo" onClick={() => setImage(image3)} className="hover:cursor-zoom-in" />
+        <img src={image2} alt="Logo" onClick={() => setImage(2)} className="hover:cursor-zoom-in" />
+        <img src={image3} alt="Logo" onClick={() => setImage(3)} className="hover:cursor-zoom-in" />
       </div>
       <div className="max-w-[750px] mx-auto p-6 sm:p-8">
         <p className="text-sm md:text-lg text-gray-800">
@@ -65,10 +65,10 @@ export default function Binary() {
         </p>
       </div>
       <div className="grid grid-cols-4">
-        <img src={image4} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(image4)} />
-        <img src={image5} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(image5)}  />
-        <img src={image6} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(image6)} />
-        <img src={image7} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(image7)} />
+        <img src={image4} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(4)} />
+        <img src={image5} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(5)}  />
+        <img src={image6} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(6)} />
+        <img src={image7} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(7)} />
       </div>
       <div className="my-16">
         <SmallDetails />
