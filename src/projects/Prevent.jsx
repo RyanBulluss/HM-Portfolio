@@ -19,7 +19,7 @@ import image15 from "../images/prevent/prevent-15.png";
 import image16 from "../images/prevent/prevent-16.png";
 
 export default function Prevent() {
-  const [image, setImage] = useState(true);
+  const [image, setImage] = useState(false);
 
   const images = [
     image1,
