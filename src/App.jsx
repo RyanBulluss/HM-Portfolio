@@ -44,12 +44,6 @@ export default function App() {
       className="fixed bg-gray-300/60 text-xl z-40 bottom-5 right-5 p-4 hover:cursor-pointer text-gray-600 hover:text-gray-100 hover:bg-black duration-300 rounded-full">
         <FaChevronUp />
       </div>
-      <div className="flex justify-center">
-
-      <a href="https://www.youtube.com/watch?v=f8mL0_4GeV0" target="_blank"
-      className="p-5 bg-red-600 text-white font-bold text-4xl my-64 rounded-3xl"
-      >PRESS ME!</a>
-      </div>
     </div>
   );
 }

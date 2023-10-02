@@ -13,8 +13,9 @@ import image10 from "../images/shy/shy-10.png";
 import image11 from "../images/shy/shy-11.png";
 import image12 from "../images/shy/shy-12.png";
 import image13 from "../images/shy/shy-13.png";
-import image14 from "../images/shy/shy-13.png";
-import image15 from "../images/shy/shy-13.png";
+import image14 from "../images/shy/shy-14.png";
+import image15 from "../images/shy/shy-15.png";
+import SmallDetails from "../SmallDetails";
 
 export default function Shy() {
   const [image, setImage] = useState(false);
@@ -111,9 +112,7 @@ export default function Shy() {
             listen to his ‘greatest hits’ and ‘solo hits’ in one place.
           </p>
           <br />
-          <h2 className="sm:text-xl pb-[20px] font-semibold">
-            Mood Board
-          </h2>
+          <h2 className="sm:text-xl pb-[20px] font-bold">Mood Board</h2>
           <p className="text-sm sm:text-base">
             Before I started my own designing I created a visual mood board. I
             always find this useful to get into the mood and emotions of any
@@ -224,24 +223,200 @@ export default function Shy() {
         </p>
         <br />
         <p className="text-sm sm:text-base">
-        The inner sleeve shape is now a half circle for two reasons. Firstly from a practically point of view, it protects the record from sliding around or getting scratched. But also from a creative point of view, as it adds another surprise element for the user.
+          The inner sleeve shape is now a half circle for two reasons. Firstly
+          from a practically point of view, it protects the record from sliding
+          around or getting scratched. But also from a creative point of view,
+          as it adds another surprise element for the user.
         </p>
       </div>
-      <div className="flex">
-      <img
-            src={image8}
+      <div className="flex py-8">
+        <img
+          src={image8}
+          alt="image"
+          onClick={() => setImage(6)}
+          className="hover:cursor-zoom-in w-1/2"
+        />
+        <img
+          src={image9}
+          alt="image"
+          onClick={() => setImage(7)}
+          className="hover:cursor-zoom-in w-1/2"
+        />
+      </div>
+      <div className="w-full flex flex-wrap gap-[2%] my-4">
+        <div className="w-full sm:w-[38%]">
+          <div className="p-4 sm:p-0">
+            <h2 className="sm:text-2xl font-bold">Concept & context</h2>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The final design represents the drum and bass and jungle music
+              style to SHY FX. Through the use of colour, and excitement and
+              creativeness.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The front cover represents how listeners feel listening to his
+              music, and recreates the feel of listening to it at a rave,
+              through the imagery of the skull and the running paint. The bright
+              and bold colours represents the excitement and colours associated
+              with his concerts.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The use of foil represents the excitement of his music, and also
+              ties in with the association of him playing at raves.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The repeated pattern of the skulls for the inner sleeve represents
+              the quick and fast beats to his music. Whilst also playing with
+              the eye, to visually represent the trippyness of the music has on
+              the brain.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              Even the actual record represents the music of the album, through
+              the bright colours to represent the excitement. With the patterns
+              looking like galaxies, to recreate the ‘out of space’ feeling the
+              listeners normally have and experience listening to his music.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              Therefore, the design decisions of the pouring paint, 3D skull,
+              the repeated pattern skull, and the holographic foil, are all
+              justified as they perfectly communicate the music of the album
+              through design.
+            </p>
+            <br />
+          </div>
+        </div>
+        <div className="w-full sm:w-[60%]">
+          <img
+            src={image10}
             alt="image"
-            onClick={() => setImage(6)}
-            className="hover:cursor-zoom-in w-1/2"
+            onClick={() => setImage(10)}
+            className="hover:cursor-zoom-in mb-2"
           />
           <img
-            src={image9}
+            src={image11}
             alt="image"
-            onClick={() => setImage(7)}
-            className="hover:cursor-zoom-in w-1/2"
+            onClick={() => setImage(11)}
+            className="hover:cursor-zoom-in"
           />
+        </div>
       </div>
-      
+      <div className="w-full flex flex-wrap gap-[2%] mt-8 mb-16">
+        <div className="w-full flex flex-col gap-2 sm:w-[49%]">
+          <img
+            src={image12}
+            alt="image"
+            onClick={() => setImage(12)}
+            className="hover:cursor-zoom-in"
+          />
+          <img
+            src={image13}
+            alt="image"
+            onClick={() => setImage(13)}
+            className="hover:cursor-zoom-in"
+          />
+          <img
+            src={image14}
+            alt="image"
+            onClick={() => setImage(14)}
+            className="hover:cursor-zoom-in"
+          />
+          <img
+            src={image15}
+            alt="image"
+            onClick={() => setImage(15)}
+            className="hover:cursor-zoom-in"
+          />
+        </div>
+        <div className="w-full sm:w-[49%] py-4">
+          <div className="p-4 sm:p-0">
+            <h2 className="text-lg sm:text-2xl font-bold">
+              Other deliverables
+            </h2>
+            <br />
+            <h3 className="sm:text-xl font-bold">7" Single albums </h3>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              I designed two single 7” album covers, that could be sold
+              alongside the LP album. I chose to do two singles as when
+              researching what normal gets sold as a set alongside albums, this
+              was a popular choice. I chose to do two singles, to show how the
+              design could be taken and used in different ways, but still be
+              part of a set.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The top album is for the single ‘Gold Dust’, one of SKY FX most
+              popular songs. Rather then using the holographic foiled used on
+              the main album, I used gold foil to still create consistency
+              across the series (by using foil), but to also tie in with the
+              song, and create some individuality for this album.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The skull experiment on the front can be seen to have glitter in
+              the paint, to work as a metaphor and relate to the song ‘Gold
+              Dust’. This skull is also cropped to only show part of the skull,
+              and to be looking in a different direction to represent the fact
+              it is part of the main album.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The second single I did was for ‘Original nuttah’. As this single
+              is less dance and more drum and base / rave scenes, I wanted to
+              represent this through the design. Therefore I chose to take a
+              more dark approach. The skull on the front cover can be seen as a
+              dark and almost uv version of the skull on the main album. This is
+              to represent the rave side of the single (through the dark and uv
+              lights).
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              Again, the skull is cropped to only show part of its head, this to
+              represent another part of the main album.I chose to foil this
+              cover with blue foil, as this tied in with the blue in the skull
+              and the idea of uv strobe lights seen at raves.
+            </p>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              Both 7” album covers, have their own individuality, whilst still
+              being consistent with the main album to create a successful series
+              of designs.
+            </p>
+            <br />
+            <h3 className="sm:text-xl font-bold">UV paint palette</h3>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              To keep with the connection of the series design, and to avoid the
+              feel of the box being a smaller version of the album design. The
+              box is made up of a cropped version of the skull to have the eyes
+              and nose on the front, and the mouth and paint puddle on the back.
+              The idea behind the full bleed of the image was to represent the
+              bright colours available inside the box, whilst tying in with the
+              album design. To created even more consistency, the logo on the
+              front of the box was foiled, to tie in with the foiled logo on the
+              front of the album cover.
+            </p>
+            <br />
+            <h3 className="sm:text-xl font-bold">Bucket hat </h3>
+            <br />
+            <p className="text-sm sm:text-base text-gray-800">
+              The bucket hat was designed as merch to be sold at festivals /
+              raves or be brought before. The intent of the design was for it to
+              be funky and suitable for a rave, but also, similar to the
+              branding of the album. I was limited to the form of connection as
+              this is only a mock-up of the bucket hat. However, the real bucket
+              hat would have the logo as holographic to tie in with the rest of
+              the series design logos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <SmallDetails />
     </div>
   );
 }
