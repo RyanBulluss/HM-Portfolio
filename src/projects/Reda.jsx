@@ -59,7 +59,7 @@ export default function Reda() {
           Reading Station and The Blade.
         </p>
       </div>
-      <img src={image1} alt="" />
+      <img src={image1} alt="" onClick={() => setImage(1)} className="hover:cursor-zoom-in" />
       <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-12 flex flex-col gap-4">
         <p className="text-sm md:text-lg">
           The keyframes below were not the final keyframes for the animation,
@@ -71,73 +71,73 @@ export default function Reda() {
         <img
           src={image2}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(2)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image3}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(3)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image4}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(4)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image5}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(5)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image6}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(6)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image7}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(7)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image8}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(8)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image9}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(9)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image10}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(10)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image11}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(11)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image12}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(12)}
           className="hover:cursor-zoom-in"
         />
         <img
           src={image13}
           alt=""
-          onClick={() => setImage(1)}
+          onClick={() => setImage(13)}
           className="hover:cursor-zoom-in"
         />
       </div>
