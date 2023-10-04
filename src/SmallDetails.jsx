@@ -1,11 +1,19 @@
-import { Link } from "react-router-dom";
-import illusion from "./images/illusion.png";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import prevent from "./images/prevent-type.png";
-import shelters from "./images/dog-shelter.png";
+import illusion from "./images/illusion.png";
+import shelter from "./images/dog-shelter.png";
 import shy from "./images/shy.png";
+import reda from "./images/reda.png";
+import argyll from "./images/argyll.png";
+import omega from "./images/omega.png";
+import binary from "./images/binary.png";
 
 export default function SmallDetails() {
-  const projects = [
+  const location = useLocation();
+  const [projects, setProjects] = useState([])
+
+  let allProjects = [
     {
       text: "Illusion",
       image: illusion,
@@ -18,7 +26,7 @@ export default function SmallDetails() {
     },
     {
       text: "A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS",
-      image: shelters,
+      image: shelter,
       link: "/dogs-in-shelters",
     },
     {
@@ -26,7 +34,37 @@ export default function SmallDetails() {
       image: shy,
       link: "/shy-fx",
     },
+    {
+      text: "REDA",
+      image: reda,
+      link: "/reda",
+    },
+    {
+      text: "ARGYLL COVENANT",
+      image: argyll,
+      link: "/argyll-covenant",
+    },
+    {
+      text: "OMEGA DIAGNOSTICS",
+      image: omega,
+      link: "/omega-diagnostics",
+    },
+    {
+      text: "BINARY BOTANICAL COMPETITION WINNER",
+      image: binary,
+      link: "/binary-botanical",
+    },
   ];
+
+  useEffect(() => {
+    allProjects = allProjects.filter((p) => p.link !== location.pathname)
+    for (let i = 0; i < allProjects.length - 4; i++) {
+      let rand = Math.floor(Math.random() * allProjects.length + 1)
+      allProjects.splice(rand, 1);
+    }
+    console.log(location.pathname)
+    setProjects(allProjects)
+  }, [])
 
   return (
     <div className="">
