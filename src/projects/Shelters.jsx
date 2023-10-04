@@ -184,11 +184,27 @@ export default function Shelters() {
       <h2 className="text-center sm:text-xl md:mt-4 py-[26px] font-bold">
         Check out the full booklet on screen below
       </h2>
-      <div className="bg-gray-800 h-[400px] flex items-center justify-center text-white">WHAT ARE THESE SLIDE THINGS</div>
+      <div className="h-[30vh] sm:h-[80vh]">
+        <iframe
+          src="https://indd.adobe.com/embed/f7913619-0996-4cd4-8fa1-120b9b725468?startpage=1&amp;allowFullscreen=true"
+          height={"100%"}
+          width={"100%"}
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
       <h2 className="text-center sm:text-xl md:mt-4 py-[26px] font-bold">
         Read more about the process within the report
       </h2>
-      <div className="bg-gray-800 h-[400px] flex items-center justify-center text-white">WHAT ARE THESE SLIDE THINGS</div>
+      <div className="h-[30vh] sm:h-[80vh]">
+        <iframe
+          src="https://indd.adobe.com/embed/bbb6303a-ea74-4934-b468-94387a921046?startpage=1&amp;allowFullscreen=true"
+          height={"100%"}
+          width={"100%"}
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
       <div className="pt-16">
         <SmallDetails />
       </div>

@@ -1,4 +1,5 @@
-import { Routes, Route  } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { FaChevronUp } from "react-icons/fa";
 import Work from "./Work";
 import Nav from "./Nav";
@@ -14,7 +15,14 @@ import Shelters from "./projects/Shelters";
 import Shy from "./projects/Shy";
 
 
+
 export default function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   function scrollToTop() {
     window.scrollTo({
@@ -44,6 +52,7 @@ export default function App() {
       className="fixed bg-gray-300/60 text-xl z-40 bottom-5 right-5 p-4 hover:cursor-pointer text-gray-600 hover:text-gray-100 hover:bg-black duration-300 rounded-full">
         <FaChevronUp />
       </div>
+      <div className="h-36"></div>
     </div>
   );
 }

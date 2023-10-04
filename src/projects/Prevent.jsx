@@ -17,9 +17,12 @@ import image13 from "../images/prevent/prevent-13.png";
 import image14 from "../images/prevent/prevent-14.png";
 import image15 from "../images/prevent/prevent-15.png";
 import image16 from "../images/prevent/prevent-16.png";
+import PlayVideo from "../PlayVideo";
+import videoFile1 from "../videos/desktop.mp4";
+import videoFile2 from "../videos/mobile.mp4";
 
 export default function Prevent() {
-  const [image, setImage] = useState(true);
+  const [image, setImage] = useState(false);
 
   const images = [
     image1,
@@ -43,7 +46,7 @@ export default function Prevent() {
   return (
     <div className="max-w-[1400px] mx-auto text-sm sm:p-4 text-blue-900">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
-      <div className="text-center p-4 sm:p-0 mx-auto max-w-[800px]">
+      <div className="text-center p-4 sm:p-0 mx-auto max-w-[900px]">
         <h1 className="text-center sm:text-4xl md:mt-4 py-[26px] font-bold">
           PREVENT TYPE 2
         </h1>
@@ -390,7 +393,7 @@ export default function Prevent() {
           />
         </div>
       </div>
-      <div className="p-4 sm:p-0 mb-8 text-center mx-auto max-w-[800px]">
+      <div className="p-4 sm:p-0 mb-8 text-center mx-auto max-w-[900px]">
         <h1 className="sm:text-4xl md:mt-4 py-[26px] font-bold">
           Full design process
         </h1>
@@ -399,21 +402,29 @@ export default function Prevent() {
           development to create Prevent Type 2.
         </p>
       </div>
-      <div className="bg-gray-700 h-[400px]"></div>
+      <div className="h-[30vh] sm:h-[80vh]">
+        <iframe
+          height={"100%"}
+          width={"100%"}
+          src="https://indd.adobe.com/embed/6d673689-e80b-4302-8105-ab63b233a99a?startpage=1&amp;allowFullscreen=true"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
       <p className="text-center my-2">Prevent Type 2 report </p>
       <div className="p-4 sm:p-0 mb-8 text-center mx-auto max-w-[800px]">
         <h1 className="sm:text-4xl md:mt-4 py-[26px] font-bold">
           Deliverable walkthroughs
         </h1>
       </div>
-      <div className="bg-gray-700 h-[400px]"></div>
+      <PlayVideo videoFile={videoFile1} />
       <p className="text-center my-2">Prevent Type 2 desktop walkthrough</p>
       <div className="flex justify-center">
         <button className="mt-16 mb-8 py-3 px-8 bg-blue-900 hover:bg-blue-900/80 text-white font-bold rounded-full">
           Desktop clickable prototype
         </button>
       </div>
-      <div className="bg-gray-700 h-[400px]"></div>
+      <PlayVideo videoFile={videoFile2} />
       <p className="text-center my-2">Prevent Type 2 desktop walkthrough</p>
       <div className="flex justify-center">
         <button className="mt-16 mb-8 py-3 px-8 bg-blue-900 hover:bg-blue-900/80 text-white font-bold rounded-full">
