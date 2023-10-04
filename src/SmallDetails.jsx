@@ -13,50 +13,51 @@ export default function SmallDetails() {
   const location = useLocation();
   const [projects, setProjects] = useState([])
 
-  let allProjects = [
-    {
-      text: "Illusion",
-      image: illusion,
-      link: "/illusion",
-    },
-    {
-      text: "Prevent Type 2",
-      image: prevent,
-      link: "/prevent-type-2",
-    },
-    {
-      text: "A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS",
-      image: shelter,
-      link: "/dogs-in-shelters",
-    },
-    {
-      text: "SHY FX ESSENTIAL ALBUM",
-      image: shy,
-      link: "/shy-fx",
-    },
-    {
-      text: "REDA",
-      image: reda,
-      link: "/reda",
-    },
-    {
-      text: "ARGYLL COVENANT",
-      image: argyll,
-      link: "/argyll-covenant",
-    },
-    {
-      text: "OMEGA DIAGNOSTICS",
-      image: omega,
-      link: "/omega-diagnostics",
-    },
-    {
-      text: "BINARY BOTANICAL COMPETITION WINNER",
-      image: binary,
-      link: "/binary-botanical",
-    },
-  ];
+
 
   useEffect(() => {
+    let allProjects = [
+      {
+        text: "Illusion",
+        image: illusion,
+        link: "/illusion",
+      },
+      {
+        text: "Prevent Type 2",
+        image: prevent,
+        link: "/prevent-type-2",
+      },
+      {
+        text: "A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS",
+        image: shelter,
+        link: "/dogs-in-shelters",
+      },
+      {
+        text: "SHY FX ESSENTIAL ALBUM",
+        image: shy,
+        link: "/shy-fx",
+      },
+      {
+        text: "REDA",
+        image: reda,
+        link: "/reda",
+      },
+      {
+        text: "ARGYLL COVENANT",
+        image: argyll,
+        link: "/argyll-covenant",
+      },
+      {
+        text: "OMEGA DIAGNOSTICS",
+        image: omega,
+        link: "/omega-diagnostics",
+      },
+      {
+        text: "BINARY BOTANICAL COMPETITION WINNER",
+        image: binary,
+        link: "/binary-botanical",
+      },
+    ];
     allProjects = allProjects.filter((p) => p.link !== location.pathname)
     for (let i = 0; i < allProjects.length - 4; i++) {
       let rand = Math.floor(Math.random() * allProjects.length + 1)
@@ -64,7 +65,7 @@ export default function SmallDetails() {
     }
     console.log(location.pathname)
     setProjects(allProjects)
-  }, [])
+  }, [location.pathname])
 
   return (
     <div className="">
