@@ -65,10 +65,10 @@ export default function Binary() {
         </p>
       </div>
       <div className="grid grid-cols-4">
-        <img src={image4} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(4)} />
-        <img src={image5} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(5)}  />
-        <img src={image6} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(6)} />
-        <img src={image7} className="p-1 hover:cursor-zoom-in" alt="image" onClick={() => setImage(7)} />
+        <img src={image4} className="p-1 hover:cursor-zoom-in" alt="" onClick={() => setImage(4)} />
+        <img src={image5} className="p-1 hover:cursor-zoom-in" alt="" onClick={() => setImage(5)}  />
+        <img src={image6} className="p-1 hover:cursor-zoom-in" alt="" onClick={() => setImage(6)} />
+        <img src={image7} className="p-1 hover:cursor-zoom-in" alt="" onClick={() => setImage(7)} />
       </div>
       <div className="my-16">
         <SmallDetails />

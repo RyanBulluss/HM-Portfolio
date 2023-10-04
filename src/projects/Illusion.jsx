@@ -115,6 +115,7 @@ export default function Illusion() {
           src="https://indd.adobe.com/embed/729c84ba-9428-4c64-819b-095dbde31332?startpage=1&amp;allowFullscreen=true"
           height={"100%"}
           width={"100%"}
+          title="third"
           frameborder="0"
           allowfullscreen=""
         ></iframe>
@@ -293,6 +294,7 @@ export default function Illusion() {
         class="scribd_iframe_embed"
         src="https://www.scribd.com/embeds/645011232/content?start_page=1&amp;view_mode=scroll&amp;access_key=key-goNPEudzjZXRyEn2LLzK"
         scrolling="no"
+        title="first"
         width="100%"
         height="600"
         frameborder="0"
@@ -307,6 +309,7 @@ export default function Illusion() {
         class="scribd_iframe_embed"
         src="https://www.scribd.com/embeds/645011702/content?start_page=1&amp;view_mode=scroll&amp;access_key=key-ofdaN9CMQbNMHWujcjNf"
         scrolling="no"
+        title="second"
         width="100%"
         height="600"
         frameborder="0"

@@ -189,6 +189,7 @@ export default function Shelters() {
           src="https://indd.adobe.com/embed/f7913619-0996-4cd4-8fa1-120b9b725468?startpage=1&amp;allowFullscreen=true"
           height={"100%"}
           width={"100%"}
+          title="second"
           frameborder="0"
           allowfullscreen=""
         ></iframe>
@@ -201,6 +202,7 @@ export default function Shelters() {
           src="https://indd.adobe.com/embed/bbb6303a-ea74-4934-b468-94387a921046?startpage=1&amp;allowFullscreen=true"
           height={"100%"}
           width={"100%"}
+          title="first"
           frameborder="0"
           allowfullscreen=""
         ></iframe>

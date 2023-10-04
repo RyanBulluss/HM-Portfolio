@@ -54,7 +54,7 @@ export default function ViewImage( {image, setImage, images} ) {
             <FaChevronRight />
           </div>
         </div>
-        <img src={images[image - 1]} alt="image" className="unselectable max-h-[95%] max-w-[95%]" />
+        <img src={images[image - 1]} alt="" className="unselectable max-h-[95%] max-w-[95%]" />
     </div>
   );
 }

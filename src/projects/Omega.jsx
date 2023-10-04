@@ -28,7 +28,7 @@ export default function Omega() {
       </div>
       <img
         src={image1}
-        alt="image"
+        alt=""
         onClick={() => setImage(1)}
         className="hover:cursor-zoom-in"
       />
@@ -44,7 +44,7 @@ export default function Omega() {
       </div>
       <img
         src={image2}
-        alt="image"
+        alt=""
         onClick={() => setImage(2)}
         className="hover:cursor-zoom-in"
       />
@@ -57,13 +57,13 @@ export default function Omega() {
       </div>
       <img
         src={image3}
-        alt="image"
+        alt=""
         onClick={() => setImage(3)}
         className="hover:cursor-zoom-in"
       />
       <img
         src={image4}
-        alt="image"
+        alt=""
         onClick={() => setImage(4)}
         className="hover:cursor-zoom-in"
       />

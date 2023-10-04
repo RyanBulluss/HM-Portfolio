@@ -59,7 +59,7 @@ export default function Shy() {
       </div>
       <img
         src={image1}
-        alt="image"
+        alt=""
         onClick={() => setImage(1)}
         className="hover:cursor-zoom-in py-10"
       />
@@ -67,13 +67,13 @@ export default function Shy() {
         <div className="w-full sm:w-[46%]">
           <img
             src={image2}
-            alt="image"
+            alt=""
             onClick={() => setImage(2)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image3}
-            alt="image"
+            alt=""
             onClick={() => setImage(3)}
             className="hover:cursor-zoom-in"
           />
@@ -168,25 +168,25 @@ export default function Shy() {
         <div className="w-full sm:w-[49%] grid grid-cols-2">
           <img
             src={image4}
-            alt="image"
+            alt=""
             onClick={() => setImage(4)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image5}
-            alt="image"
+            alt=""
             onClick={() => setImage(5)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image6}
-            alt="image"
+            alt=""
             onClick={() => setImage(6)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image7}
-            alt="image"
+            alt=""
             onClick={() => setImage(7)}
             className="hover:cursor-zoom-in"
           />
@@ -232,13 +232,13 @@ export default function Shy() {
       <div className="flex py-8">
         <img
           src={image8}
-          alt="image"
+          alt=""
           onClick={() => setImage(6)}
           className="hover:cursor-zoom-in w-1/2"
         />
         <img
           src={image9}
-          alt="image"
+          alt=""
           onClick={() => setImage(7)}
           className="hover:cursor-zoom-in w-1/2"
         />
@@ -293,13 +293,13 @@ export default function Shy() {
         <div className="w-full sm:w-[60%]">
           <img
             src={image10}
-            alt="image"
+            alt=""
             onClick={() => setImage(10)}
             className="hover:cursor-zoom-in mb-2"
           />
           <img
             src={image11}
-            alt="image"
+            alt=""
             onClick={() => setImage(11)}
             className="hover:cursor-zoom-in"
           />
@@ -309,25 +309,25 @@ export default function Shy() {
         <div className="w-full flex flex-col gap-2 sm:w-[49%]">
           <img
             src={image12}
-            alt="image"
+            alt=""
             onClick={() => setImage(12)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image13}
-            alt="image"
+            alt=""
             onClick={() => setImage(13)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image14}
-            alt="image"
+            alt=""
             onClick={() => setImage(14)}
             className="hover:cursor-zoom-in"
           />
           <img
             src={image15}
-            alt="image"
+            alt=""
             onClick={() => setImage(15)}
             className="hover:cursor-zoom-in"
           />

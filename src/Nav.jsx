@@ -44,13 +44,13 @@ export default function Nav() {
         
       </div>
       <div className="w-1/3 h-full hidden md:flex justify-end items-center mr-2 gap-6">
-        <a href="http://linkedin.com/in/hanorah-murphy" target="_blank">
+        <a href="http://linkedin.com/in/hanorah-murphy" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://www.instagram.com/hanorahs.studio/" target="_blank">
+        <a href="https://www.instagram.com/hanorahs.studio/" target="_blank" rel="noreferrer">
           <FaInstagram />
         </a>
-        <a href="mailto:Hanorahs.studio@gmail.com" target="_blank">
+        <a href="mailto:Hanorahs.studio@gmail.com" target="_blank" rel="noreferrer">
           <FaEnvelope />
         </a>
       </div>
