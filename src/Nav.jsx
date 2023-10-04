@@ -13,34 +13,35 @@ export default function Nav() {
         {showNav && <SmallNav showNav={showNav} setShowNav={setShowNav} /> }
       <div className="w-1/3 h-full hidden md:flex items-center gap-4 lg:gap-6 text-md">
         <Link
-          to="/HM-Portfolio/about"
-          className={`${location.pathname === "/HM-Portfolio/about" ? "font-semibold" : ""}`}
+          to="/about"
+          className={`${location.pathname === "/about" ? "font-semibold" : ""}`}
         >
           ABOUT ME
         </Link>
         <Link
-          to="/HM-Portfolio/"
-          className={`${location.pathname === "/HM-Portfolio/" ? "font-semibold" : ""}`}
+          to="/"
+          className={`${location.pathname === "/" ? "font-semibold" : ""}`}
         >
           WORK
         </Link>
         <Link
-          to="/HM-Portfolio/contact"
+          to="/contact"
           className={`${
-            location.pathname === "/HM-Portfolio/contact" ? "font-semibold" : ""
+            location.pathname === "/contact" ? "font-semibold" : ""
           }`}
         >
           CONTACT
         </Link>
       </div>
       <div className="md:w-1/3 h-full flex unselectable items-center justify-center">
-        <Link to="/HM-Portfolio/">
+        <Link to="/">
           <img
             className="h-[60px] md:h-[120px] md:ml-3"
             src={logo}
             alt="logo"
           />
         </Link>
+        
       </div>
       <div className="w-1/3 h-full hidden md:flex justify-end items-center mr-2 gap-6">
         <a href="http://linkedin.com/in/hanorah-murphy" target="_blank">

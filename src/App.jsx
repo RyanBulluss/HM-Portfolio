@@ -35,17 +35,17 @@ export default function App() {
     <div className="min-h-[100vh]">
       <Nav />
       <Routes>
-        <Route path="/HM-Portfolio/" element={<Work />} />
-        <Route path="/HM-Portfolio/about" element={<About />} />
-        <Route path="/HM-Portfolio/contact" element={<Contact />} />
-        <Route path="/HM-Portfolio/illusion" element={<Illusion />} />
-        <Route path="/HM-Portfolio/prevent-type-2" element={<Prevent />} />
-        <Route path="/HM-Portfolio/dogs-in-shelters" element={<Shelters />} />
-        <Route path="/HM-Portfolio/shy-fx" element={<Shy />} />
-        <Route path="/HM-Portfolio/reda" element={<Reda />} />
-        <Route path="/HM-Portfolio/argyll-covenant" element={<Argyll />} />
-        <Route path="/HM-Portfolio/omega-diagnostics" element={<Omega />} />
-        <Route path="/HM-Portfolio/binary-botanical" element={<Binary />} />
+        <Route path="/" element={<Work />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/illusion" element={<Illusion />} />
+        <Route path="/prevent-type-2" element={<Prevent />} />
+        <Route path="/dogs-in-shelters" element={<Shelters />} />
+        <Route path="/shy-fx" element={<Shy />} />
+        <Route path="/reda" element={<Reda />} />
+        <Route path="/argyll-covenant" element={<Argyll />} />
+        <Route path="/omega-diagnostics" element={<Omega />} />
+        <Route path="/binary-botanical" element={<Binary />} />
       </Routes>
       <div
       onClick={scrollToTop}

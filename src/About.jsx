@@ -36,7 +36,7 @@ export default function About() {
         </p>
       </div>
 
-      <Link className="bg-black hover:bg-black/70 duration-300 text-white font-bold rounded-full py-2 px-6" to="/HM-Portfolio/">
+      <Link className="bg-black hover:bg-black/70 duration-300 text-white font-bold rounded-full py-2 px-6" to="/">
         View my work
       </Link>
 

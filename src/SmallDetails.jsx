@@ -9,22 +9,22 @@ export default function SmallDetails() {
     {
       text: "Illusion",
       image: illusion,
-      link: "/HM-Portfolio/illusion",
+      link: "/illusion",
     },
     {
       text: "Prevent Type 2",
       image: prevent,
-      link: "/HM-Portfolio/prevent-type-2",
+      link: "/prevent-type-2",
     },
     {
       text: "A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS",
       image: shelters,
-      link: "/HM-Portfolio/dogs-in-shelters",
+      link: "/dogs-in-shelters",
     },
     {
       text: "SHY FX ESSENTIAL ALBUM",
       image: shy,
-      link: "/HM-Portfolio/shy-fx",
+      link: "/shy-fx",
     },
   ];
 
@@ -39,7 +39,7 @@ export default function SmallDetails() {
               className="z-0 h-full w-full"
               alt="screenshot"
             />
-            <div className="flex text-xs absolute top-0 left-0 z-20 items-center text-center justify-center font-semibold w-full h-full bg-gray-100/[95%] opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+            <div className="flex text-xs absolute top-0 p-2 left-0 z-20 items-center text-center justify-center font-semibold w-full h-full bg-gray-100/[95%] opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               {project.text}
             </div>
           </Link>

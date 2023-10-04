@@ -18,20 +18,20 @@ export default function Work() {
         </h2>
       </div>
       <div className="grid sm:grid-cols-2 gap-4 sm:mx-4 md:mx-8 lg:mx-14 transition duration-200">
-        <Details text={"ILLUSION"} link={"/HM-Portfolio/illusion"} image={illusion} />
-        <Details text={"PREVENT TYPE 2"} link={"/HM-Portfolio/prevent-type-2"} image={prevent} />
+        <Details text={"ILLUSION"} link={"/illusion"} image={illusion} />
+        <Details text={"PREVENT TYPE 2"} link={"/prevent-type-2"} image={prevent} />
         <Details
           text={"A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS"}
-          link={"/HM-Portfolio/dogs-in-shelters"}
+          link={"/dogs-in-shelters"}
           image={shelter}
         />
-        <Details text={"SHY FX ESSENTIAL ALBUM"} link={"/HM-Portfolio/shy-fx"} image={shy} />
-        <Details text={"REDA"} link={"/HM-Portfolio/reda"} image={reda} />
-        <Details text={"ARGYLL COVENANT"} link={"/HM-Portfolio/argyll-covenant"} image={argyll} />
-        <Details text={"OMEGA DIAGNOSTICS"} link={"/HM-Portfolio/omega-diagnostics"} image={omega} />
+        <Details text={"SHY FX ESSENTIAL ALBUM"} link={"/shy-fx"} image={shy} />
+        <Details text={"REDA"} link={"/reda"} image={reda} />
+        <Details text={"ARGYLL COVENANT"} link={"/argyll-covenant"} image={argyll} />
+        <Details text={"OMEGA DIAGNOSTICS"} link={"/omega-diagnostics"} image={omega} />
         <Details
           text={"BINARY BOTANICAL COMPETITION WINNER"}
-          link={"/HM-Portfolio/binary-botanical"}
+          link={"/binary-botanical"}
           image={binary}
         />
       </div>
