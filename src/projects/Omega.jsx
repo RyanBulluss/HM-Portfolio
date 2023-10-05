@@ -14,9 +14,10 @@ export default function Omega() {
     <div className="max-w-[1400px] mx-auto text-center sm:p-4">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
       <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 mb-8 flex flex-col gap-6">
-        <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
+        <h1 className="text-center text-2xl sm:text-3xl md:mt-4 font-bold">
           OMEGA DIAGNOSTICS
         </h1>
+        <br />
         <p className="text-sm md:text-lg text-gray-600">
           Omega Diagnostics is an international diagnostic testing business that
           is a client of ClearBrand. They needed a new exhibition booth, which I

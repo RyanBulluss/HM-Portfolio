@@ -9,8 +9,8 @@ export default function SmallNav({ showNav, setShowNav }) {
       className="bg-white fixed w-[100%] h-[100%] flex flex-col top-0 left-0 z-50"
       onClick={() => setShowNav(!showNav)}
     >
-      <div className="h-[120px] flex text-2xl justify-end items-center mx-8 md:mx-[3%]">
-        <div className="mt-1 cursor-pointer">
+      <div className="h-[120px] flex text-2xl justify-end items-center mx-3 md:mx-[3%]">
+        <div className="mt-1 cursor-pointer p-2">
           <FaTimes />
         </div>
       </div>

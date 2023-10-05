@@ -41,11 +41,11 @@ export default function Shy() {
   return (
     <div className="max-w-[1400px] mx-auto sm:p-4">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
-      <h1 className="text-center sm:text-2xl md:mt-4 py-[32px] font-bold">
+      <h1 className="text-center text-2xl sm:text-3xl md:mt-4 py-[32px] font-bold">
         SHY FX ESSENTIAL ALBUM
       </h1>
       <div className="w-full sm:w-[70%] px-4 pt-4 sm:px-0 ">
-        <h2 className="sm:text-2xl md:mt-4 pb-[20px] font-semibold">Brief</h2>
+        <h2 className="text-xl sm:text-2xl md:mt-4 pb-[20px] font-bold">Brief</h2>
         <p className="text-sm md:text-lg">
           The brief was to design and make physical and digital packaging for
           the launch of 'SHY FX Essential album', whilst improving their current
@@ -79,7 +79,7 @@ export default function Shy() {
           />
         </div>
         <div className="w-full sm:w-[52%] p-4 sm:p-0">
-          <h2 className="sm:text-2xl md:mt-4 pb-[20px] font-bold">
+          <h2 className="text-xl sm:text-2xl md:mt-4 pb-[20px] font-bold">
             Music packaging
           </h2>
           <ul className="list-disc ml-5 text-sm sm:text-base">
@@ -88,7 +88,7 @@ export default function Shy() {
             <li>Artist – Shy FX</li>
             <br />
           </ul>
-          <h2 className="sm:text-xl md:mt-4 pb-[20px] font-bold">
+          <h2 className="text-lg sm:text-xl mt-3 md:mt-4 pb-[20px] font-semibold">
             Problem/Solution
           </h2>
           <p className="text-sm sm:text-base">
@@ -112,7 +112,7 @@ export default function Shy() {
             listen to his ‘greatest hits’ and ‘solo hits’ in one place.
           </p>
           <br />
-          <h2 className="sm:text-xl pb-[20px] font-bold">Mood Board</h2>
+          <h2 className="text-lg sm:text-xl pb-[20px] mt-3 font-semibold">Mood Board</h2>
           <p className="text-sm sm:text-base">
             Before I started my own designing I created a visual mood board. I
             always find this useful to get into the mood and emotions of any
@@ -138,12 +138,12 @@ export default function Shy() {
           </p>
         </div>
       </div>
-      <h2 className="text-center sm:text-2xl md:mt-4 py-[40px] font-bold">
+      <h2 className="text-center text-xl sm:text-2xl md:mt-4 py-[40px] font-bold">
         Vinyl album
       </h2>
       <div className="flex flex-wrap gap-[2%] pb-20">
         <div className="w-full sm:w-[49%] p-4 sm:p-0">
-          <h2 className="sm:text-2xl font-bold">Initial concept experiments</h2>
+          <h2 className="text-lg sm:text-2xl font-semibold">Initial concept experiments</h2>
           <br />
           <p className="text-sm sm:text-base text-gray-800">
             I chose to take the skull idea further, as after carrying out
@@ -193,7 +193,7 @@ export default function Shy() {
         </div>
       </div>
       <div className="p-4 sm:p-0">
-        <h2 className="sm:text-2xl font-bold">Inner sleeve & record</h2>
+        <h2 className="text-lg sm:text-2xl font-semibold">Inner sleeve & record</h2>
         <br />
         <p className="text-sm sm:text-base text-gray-800">
           The record was created in the same style of the album cover. Each side
@@ -246,7 +246,7 @@ export default function Shy() {
       <div className="w-full flex flex-wrap gap-[2%] my-4">
         <div className="w-full sm:w-[38%]">
           <div className="p-4 sm:p-0">
-            <h2 className="sm:text-2xl font-bold">Concept & context</h2>
+            <h2 className="text-lg sm:text-2xl font-semibold">Concept & context</h2>
             <br />
             <p className="text-sm sm:text-base text-gray-800">
               The final design represents the drum and bass and jungle music
@@ -334,11 +334,11 @@ export default function Shy() {
         </div>
         <div className="w-full sm:w-[49%] py-4">
           <div className="p-4 sm:p-0">
-            <h2 className="text-lg sm:text-2xl font-bold">
+            <h2 className="text-xl sm:text-2xl font-bold">
               Other deliverables
             </h2>
             <br />
-            <h3 className="sm:text-xl font-bold">7" Single albums </h3>
+            <h3 className="text-lg sm:text-xl font-semibold">7" Single albums </h3>
             <br />
             <p className="text-sm sm:text-base text-gray-800">
               I designed two single 7” album covers, that could be sold
@@ -388,7 +388,7 @@ export default function Shy() {
               of designs.
             </p>
             <br />
-            <h3 className="sm:text-xl font-bold">UV paint palette</h3>
+            <h3 className="text-lg sm:text-xl font-semibold">UV paint palette</h3>
             <br />
             <p className="text-sm sm:text-base text-gray-800">
               To keep with the connection of the series design, and to avoid the
@@ -402,7 +402,7 @@ export default function Shy() {
               front of the album cover.
             </p>
             <br />
-            <h3 className="sm:text-xl font-bold">Bucket hat </h3>
+            <h3 className="text-lg sm:text-xl font-semibold">Bucket hat </h3>
             <br />
             <p className="text-sm sm:text-base text-gray-800">
               The bucket hat was designed as merch to be sold at festivals /

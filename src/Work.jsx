@@ -12,7 +12,7 @@ export default function Work() {
   return (
     <>
       <div className="h-[160px] md:h-[246px] flex flex-col items-center py-8 md:py-14 gap-5">
-        <h1 className="text-xl md:text-4xl">Hanorah’s Studio</h1>
+        <h1 className="text-xl md:text-4xl font-semibold">Hanorah’s Studio</h1>
         <h2 className="md:font-medium md:text-lg">
           Keep scrolling to explore my portfolio!
         </h2>

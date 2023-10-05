@@ -9,7 +9,7 @@ export default function Nav() {
   const [showNav, setShowNav] = useState(false); 
 
   return (
-    <div className="h-[120px] flex justify-between items-center mx-8 md:mx-[3%]">
+    <div className="h-[120px] flex justify-between items-center mx-2 md:mx-[3%]">
         {showNav && <SmallNav showNav={showNav} setShowNav={setShowNav} /> }
       <div className="w-1/3 h-full hidden md:flex items-center gap-4 lg:gap-6 text-md">
         <Link
@@ -54,7 +54,7 @@ export default function Nav() {
           <FaEnvelope />
         </a>
       </div>
-      { !showNav && <div className="block md:hidden text-2xl mb-4 hover:cursor-pointer"
+      { !showNav && <div className="block md:hidden text-2xl mr-3 mb-4 hover:cursor-pointer"
       onClick={() => setShowNav(!showNav)}>
         <FaBars />
       </div>

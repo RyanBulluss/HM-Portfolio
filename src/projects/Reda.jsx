@@ -39,7 +39,8 @@ export default function Reda() {
     <div className="max-w-[1400px] mx-auto xs:p-4 text-center">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
       <div className="max-w-[750px] mx-auto mb-4 p-6 sm:px-0 sm:py-8 flex flex-col gap-4">
-        <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">REDA</h1>
+        <h1 className="text-center text-2xl sm:text-3xl md:mt-4 font-bold">REDA</h1>
+        <br />
         <p className="text-sm md:text-lg text-gray-600">
           Reading’s Economy and Destination Agency (REDA) a marketing
           organisation for Reading to represent the town as a great place to

@@ -20,9 +20,10 @@ export default function Binary() {
         {image &&  <ViewImage image={image} setImage={setImage} images={images} />}
      
       <div className="max-w-[750px] mb-6 mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-4">
-        <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
+        <h1 className="text-center text-2xl sm:text-3xl md:mt-4 font-bold">
           BINARY BOTANICAL COMPETITION WINNER
         </h1>
+        <br />
         <p className="text-sm md:text-lg text-gray-600">
           Binary Botanical is the award winning “wine lovers’ beer”. Which is
           vegan friendly and gluten free.

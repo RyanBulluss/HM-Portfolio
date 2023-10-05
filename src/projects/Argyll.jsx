@@ -32,9 +32,10 @@ export default function Argyll() {
     <div className="max-w-[1400px] mx-auto xs:p-4 text-center">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
       <div className="max-w-[750px] mx-auto p-6 sm:px-0 sm:py-8 flex flex-col gap-6">
-        <h1 className="text-center sm:text-2xl md:mt-4 font-semibold">
+        <h1 className="text-center text-2xl sm:text-3xl md:mt-4 font-bold">
           ARGYLL COVENANT
         </h1>
+        <br />
         <p className="text-sm md:text-lg text-gray-600">
           Argyll Covenant, a specialist employer covenant advice, is an example
           of a client project I worked on during my Internship at ClearBrand.

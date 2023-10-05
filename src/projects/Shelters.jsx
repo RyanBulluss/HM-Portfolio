@@ -17,12 +17,12 @@ export default function Shelters() {
   return (
     <div className="max-w-[1400px] mx-auto sm:p-4">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
-      <h1 className="text-center sm:text-2xl md:mt-4 py-[26px] font-bold">
+      <h1 className="text-center text-2xl sm:text-2xl md:mt-4 py-[26px] font-bold">
         A DOSE OF REALITY WHAT HAPPENS TO DOGS IN SHELTERS
       </h1>
       <h4 className="text-center text-gray-500">Editorial design</h4>
       <div className="max-w-[800px] mx-auto my-12 p-4 sm:px-0">
-        <h1 className="sm:text-2xl md:mt-4 font-semibold">Module brief </h1>
+        <h1 className="text-xl sm:text-2xl md:mt-4 font-bold">Module brief </h1>
         <br />
         <p className="text-sm md:text-lg text-gray-600">
           The project brief was to develop an awareness ‘of the relationship
@@ -67,7 +67,7 @@ export default function Shelters() {
         </div>
         <div className="w-full sm:w-[51%]">
           <div className="p-4 sm:p-0">
-            <h2 className="sm:text-xl md:mt-4 pb-[20px] font-bold">
+            <h2 className="text-lg sm:text-xl md:mt-4 pb-[20px] mt-2 font-semibold">
               Choosing a topic
             </h2>
             <p className="text-sm sm:text-base">
@@ -129,7 +129,7 @@ export default function Shelters() {
       <div className="flex flex-wrap gap-[2%] py-8">
         <div className="w-full sm:w-[49%]">
           <div className="p-4 sm:p-0">
-            <h2 className="sm:text-xl md:mt-4 pb-[20px] font-bold">
+            <h2 className="text-lg sm:text-xl md:mt-4 pb-[20px] font-semibold">
               Design process
             </h2>
             <p className="text-sm sm:text-base">
@@ -181,7 +181,7 @@ export default function Shelters() {
           />
         </div>
       </div>
-      <h2 className="text-center sm:text-xl md:mt-4 py-[26px] font-bold">
+      <h2 className="text-center text-lg px-2 sm:text-xl md:mt-4 py-[26px] font-bold">
         Check out the full booklet on screen below
       </h2>
       <div className="h-[30vh] sm:h-[80vh]">
@@ -194,7 +194,7 @@ export default function Shelters() {
           allowfullscreen=""
         ></iframe>
       </div>
-      <h2 className="text-center sm:text-xl md:mt-4 py-[26px] font-bold">
+      <h2 className="text-center text-lg px-2 sm:text-xl md:mt-4 py-[26px] font-bold">
         Read more about the process within the report
       </h2>
       <div className="h-[30vh] sm:h-[80vh]">

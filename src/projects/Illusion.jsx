@@ -37,7 +37,7 @@ export default function Illusion() {
   return (
     <div className="max-w-[1400px] mx-auto text-sm sm:p-4">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
-      <h1 className="text-center sm:text-2xl md:mt-4 py-[26px] font-bold">
+      <h1 className="text-center sm:text-3xl text-2xl md:mt-4 py-[26px] font-bold">
         ILLUSION
       </h1>
       <div className="max-w-[900px] text-center mx-auto my-8 p-4 sm:px-0">
@@ -107,7 +107,7 @@ export default function Illusion() {
           <br />
         </div>
       </div>
-      <h1 className="text-center sm:text-2xl md:mt-4 py-[26px] font-bold">
+      <h1 className="text-center text-xl sm:text-2xl md:mt-4 py-[26px] font-bold">
         THE FULL MAGAZINE
       </h1>
       <div className="h-[30vh] sm:h-[80vh]">
@@ -122,7 +122,7 @@ export default function Illusion() {
       </div>
       <div className="flex flex-wrap gap-[2%] py-4">
         <div className="w-full sm:w-[51%] py-4 px-4 sm:px-0">
-          <h1 className="sm:text-xl font-bold">Creating a series</h1>
+          <h1 className="text-lg sm:text-xl font-semibold">Creating a series</h1>
           <br />
           <p className="sm:text-lg">
             Each issue of Illusion focuses on pushing the boundaries of makeup
@@ -215,7 +215,7 @@ export default function Illusion() {
           />
         </div>
         <div className="w-full sm:w-[49%] px-4 sm:px-0 py-4">
-          <h1 className="sm:text-xl font-bold">Page detail</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">Page detail</h1>
           <br />
           <p className="sm:text-lg">
             For the meet the artist section within each issue, the reader can
@@ -237,7 +237,7 @@ export default function Illusion() {
       </div>
       <div className="flex flex-wrap gap-[2%] py-4">
         <div className="w-full sm:w-[55%] px-4 sm:px-0 py-4">
-          <h1 className="sm:text-xl font-bold">Online presence</h1>
+          <h1 className="text-lg sm:text-xl font-semibold">Online presence</h1>
           <br />
           <p className="sm:text-lg">
             Illusion has two main online presences: a website and an instagram

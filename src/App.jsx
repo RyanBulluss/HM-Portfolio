@@ -14,10 +14,7 @@ import Reda from "./projects/Reda";
 import Shelters from "./projects/Shelters";
 import Shy from "./projects/Shy";
 
-
-
 export default function App() {
-
   const location = useLocation();
 
   useEffect(() => {
@@ -27,9 +24,9 @@ export default function App() {
   function scrollToTop() {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
-  };
+  }
 
   return (
     <div className="min-h-[100vh]">
@@ -48,11 +45,12 @@ export default function App() {
         <Route path="/binary-botanical" element={<Binary />} />
       </Routes>
       <div
-      onClick={scrollToTop}
-      className="fixed bg-gray-300/60 text-xl z-40 bottom-5 right-5 p-4 hover:cursor-pointer text-gray-600 hover:text-gray-100 hover:bg-black duration-300 rounded-full">
+        onClick={scrollToTop}
+        className="fixed bg-gray-300/60 text-xl z-40 bottom-5 right-5 p-4 hover:cursor-pointer text-gray-600 hover:text-gray-100 hover:bg-black duration-300 rounded-full"
+      >
         <FaChevronUp />
       </div>
-      <div className="h-36"></div>
+      <div className="h-26"></div>
     </div>
   );
 }

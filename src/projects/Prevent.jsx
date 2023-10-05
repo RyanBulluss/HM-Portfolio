@@ -47,9 +47,10 @@ export default function Prevent() {
     <div className="max-w-[1400px] mx-auto text-sm sm:p-4 text-blue-900">
       {image && <ViewImage image={image} setImage={setImage} images={images} />}
       <div className="text-center p-4 sm:p-0 mx-auto max-w-[900px]">
-        <h1 className="text-center sm:text-4xl md:mt-4 py-[26px] font-bold">
+        <h1 className="text-center text-2xl sm:text-4xl md:mt-4 py-[26px] font-bold">
           PREVENT TYPE 2
         </h1>
+        <br />
         <p className="font-semibold sm:text-xl">
           Prevent Type 2 is a website / web app that provides information around
           the condition of pre-diabetes. Whilst offering interactive features
@@ -66,7 +67,7 @@ export default function Prevent() {
         className="hover:cursor-zoom-in"
       />
       <div className="p-4 sm:p-0 mx-auto max-w-[800px]">
-        <h1 className="sm:text-xl md:mt-4 py-[26px] font-bold">Module brief</h1>
+        <h1 className="sm:text-xl text-xl md:mt-4 py-[26px] font-semibold">Module brief</h1>
         <p className="font-semibold sm:text-lg">
           To carry out a robust user experience research process and then create
           a responsive web design on the subject of health, showing how the
@@ -90,7 +91,7 @@ export default function Prevent() {
         />
       </div>
       <div className="p-4 sm:p-0 mb-8 mx-auto max-w-[800px]">
-        <h1 className="text-center sm:text-4xl md:mt-4 py-[26px] font-bold">
+        <h1 className="text-center text-xl sm:text-4xl md:mt-4 py-[26px] font-bold">
           About Pre-diabetes
         </h1>
         <p className="font-bold text-green-600 sm:text-lg">
@@ -113,7 +114,7 @@ export default function Prevent() {
       </div>
       <div className="flex flex-wrap gap-[2%] p-4">
         <div className="w-full sm:w-[40%] py-4">
-          <h1 className="sm:text-4xl font-bold">
+          <h1 className="text-lg sm:text-xl font-semibold mb-2">
             User personas and low-fidelity wireframes
           </h1>
           <br />
@@ -178,7 +179,7 @@ export default function Prevent() {
           />
         </div>
         <div className="w-full sm:w-[42%] py-4">
-          <h1 className="sm:text-4xl font-bold">
+          <h1 className="text-lg sm:text-xl font-semibold mb-2">
             Mid-fidelity wireframes and user testing
           </h1>
           <br />
@@ -206,7 +207,7 @@ export default function Prevent() {
             realised that this feature needs to me more flexible for users.
           </p>
           <br />
-          <h1 className="sm:text-xl font-bold">Responding to user testing</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-3">Responding to user testing</h1>
           <br />
           <p className="sm:text-lg">
             In response to the user testing observation findings, I made the
@@ -228,9 +229,9 @@ export default function Prevent() {
       </div>
       <div className="flex flex-wrap gap-[2%] p-4">
         <div className="w-full sm:w-[35%] py-4">
-          <h1 className="sm:text-4xl font-bold">High-fidelity wireframes</h1>
+          <h1 className="text-xl sm:text-4xl font-bold mb-2">High-fidelity wireframes</h1>
           <br />
-          <h1 className="sm:text-xl font-bold">Homepage</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">Homepage</h1>
           <br />
           <p className="sm:text-lg">
             The greatest adaptation between the desktop and the mobile is the
@@ -248,7 +249,7 @@ export default function Prevent() {
             legible.
           </p>
           <br />
-          <h1 className="sm:text-xl font-bold">My story</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">My story</h1>
           <br />
           <p className="sm:text-lg">
             The greatest adaptation between the desktop and the mobile is the
@@ -270,7 +271,7 @@ export default function Prevent() {
             are different due to the size difference.
           </p>
           <br />
-          <h1 className="sm:text-xl font-bold">Guess the hidden</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">Guess the hidden</h1>
           <br />
           <p className="sm:text-lg">
             The greatest adaptation on the hidden sugars game across both
@@ -289,7 +290,7 @@ export default function Prevent() {
           </p>
           <br />
         </div>
-        <div className="w-full sm:w-[63%] py-4">
+        <div className="w-full sm:w-[63%] flex flex-col gap-3 py-4">
           <img
             src={image9}
             alt=""
@@ -324,14 +325,14 @@ export default function Prevent() {
       </div>
       <div className="flex flex-wrap gap-[2%] p-4">
         <div className="w-full sm:w-[49%] py-4">
-          <h1 className="sm:text-4xl font-bold">Visual design</h1>
+          <h1 className="text-xl sm:text-4xl font-bold mt-2">Visual design</h1>
           <br />
           <p className="sm:text-lg">
             Prevent Type 2 green is used throughout for the main CTA’s, to make
             each page clear and assessable for the user.
           </p>
           <br />
-          <h1 className="sm:text-xl font-bold">Logo</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">Logo</h1>
           <br />
           <p className="sm:text-lg">
             The logo consists of the name Prevent Type 2, representing that the
@@ -343,7 +344,7 @@ export default function Prevent() {
             as the blue ribbon is still identifiable within this logo.
           </p>
           <br />
-          <h1 className="sm:text-xl font-bold">Colour scheme</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">Colour scheme</h1>
           <br />
           <p className="sm:text-lg font-semibold">
             Vibrant but sophisticated colour pallet. Use of colour to add levels
@@ -363,7 +364,7 @@ export default function Prevent() {
             the heads stand out.
           </p>
           <br />
-          <h1 className="sm:text-xl font-bold">Components</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-2">Components</h1>
           <br />
           <p className="sm:text-lg">
             Prevent Type 2 uses a range of components that follow its branding
@@ -394,7 +395,7 @@ export default function Prevent() {
         </div>
       </div>
       <div className="p-4 sm:p-0 mb-8 text-center mx-auto max-w-[900px]">
-        <h1 className="sm:text-4xl md:mt-4 py-[26px] font-bold">
+        <h1 className="text-xl sm:text-4xl font-bold mt-2 md:mt-4 py-[26px]">
           Full design process
         </h1>
         <p className="font-semibold sm:text-lg">
@@ -414,7 +415,7 @@ export default function Prevent() {
       </div>
       <p className="text-center my-2">Prevent Type 2 report </p>
       <div className="p-4 sm:p-0 mb-8 text-center mx-auto max-w-[800px]">
-        <h1 className="sm:text-4xl md:mt-4 py-[26px] font-bold">
+        <h1 className="text-xl sm:text-4xl mt-2 md:mt-4 py-[26px] font-bold">
           Deliverable walkthroughs
         </h1>
       </div>
