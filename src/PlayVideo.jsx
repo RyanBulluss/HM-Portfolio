@@ -5,7 +5,7 @@ export default function PlayVideo ( {videoFile} ) {
 
     return (
         <Video>
-            <source src={videoFile} type="video/webm" />
+            <source src={videoFile} type="video/mp4" />
         </Video>
     )
 }
