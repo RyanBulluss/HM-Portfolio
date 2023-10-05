@@ -274,7 +274,7 @@ export default function Illusion() {
         </div>
       </div>
       <PlayVideo videoFile={video1} />
-      <h1 className="sm:text-xl text-center text-pink-500 font-semibold">
+      <h1 className="sm:text-xl my-2 text-center text-pink-500 font-semibold">
         Illusion website walkthrough
       </h1>
       <div className="my-8 flex justify-center">
@@ -299,7 +299,7 @@ export default function Illusion() {
         height="600"
         frameborder="0"
       ></iframe>
-      <h1 className="sm:text-xl text-center text-pink-500 font-semibold">
+      <h1 className="sm:text-xl my-2 text-center text-pink-500 font-semibold">
         Illusion Instagram plan
       </h1>
       <h1 className="text-center sm:text-2xl md:mt-4 py-[26px] font-bold">
@@ -314,7 +314,7 @@ export default function Illusion() {
         height="600"
         frameborder="0"
       ></iframe>
-      <h1 className="sm:text-xl text-center text-pink-500 font-semibold">
+      <h1 className="sm:text-xl text-center my-2 text-pink-500 font-semibold">
         Illusion pitch document
       </h1>
       <div className="mt-16">

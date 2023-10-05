@@ -207,7 +207,7 @@ export default function Prevent() {
             realised that this feature needs to me more flexible for users.
           </p>
           <br />
-          <h1 className="text-lg sm:text-xl font-semibold mt-3">Responding to user testing</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-4">Responding to user testing</h1>
           <br />
           <p className="sm:text-lg">
             In response to the user testing observation findings, I made the
@@ -231,7 +231,7 @@ export default function Prevent() {
         <div className="w-full sm:w-[35%] py-4">
           <h1 className="text-xl sm:text-4xl font-bold mb-2">High-fidelity wireframes</h1>
           <br />
-          <h1 className="text-lg sm:text-xl font-semibold mt-2">Homepage</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-4">Homepage</h1>
           <br />
           <p className="sm:text-lg">
             The greatest adaptation between the desktop and the mobile is the
@@ -249,7 +249,7 @@ export default function Prevent() {
             legible.
           </p>
           <br />
-          <h1 className="text-lg sm:text-xl font-semibold mt-2">My story</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-4">My story</h1>
           <br />
           <p className="sm:text-lg">
             The greatest adaptation between the desktop and the mobile is the
@@ -271,7 +271,7 @@ export default function Prevent() {
             are different due to the size difference.
           </p>
           <br />
-          <h1 className="text-lg sm:text-xl font-semibold mt-2">Guess the hidden</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-4">Guess the hidden</h1>
           <br />
           <p className="sm:text-lg">
             The greatest adaptation on the hidden sugars game across both
@@ -332,7 +332,7 @@ export default function Prevent() {
             each page clear and assessable for the user.
           </p>
           <br />
-          <h1 className="text-lg sm:text-xl font-semibold mt-2">Logo</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-4">Logo</h1>
           <br />
           <p className="sm:text-lg">
             The logo consists of the name Prevent Type 2, representing that the
@@ -344,7 +344,7 @@ export default function Prevent() {
             as the blue ribbon is still identifiable within this logo.
           </p>
           <br />
-          <h1 className="text-lg sm:text-xl font-semibold mt-2">Colour scheme</h1>
+          <h1 className="text-lg sm:text-xl font-semibold mt-4">Colour scheme</h1>
           <br />
           <p className="sm:text-lg font-semibold">
             Vibrant but sophisticated colour pallet. Use of colour to add levels
